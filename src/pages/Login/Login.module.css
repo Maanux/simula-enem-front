@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  min-width: 443px;
+  min-height: 923px;
+}
+
+.logo {
+  width: 500px;
+  height: 250px;
+  margin-bottom: -50px;
+}
+
+.bottons {
+  display: flex;
+  gap: 10px;
+  background-color: #dbdbdb;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.buttonLogin {
+  background-color: #ffffff;
+  padding: 9px 80px;
+  font-weight: 550;
+  border-radius: 4px;
+  border: none;
+}
+
+.buttonRegister {
+  background-color: #dbdbdb;
+  color: #71717a;
+  padding: 9px 70px;
+  font-weight: 550;
+  border-radius: 4px;
+  border: none;
+}
+.buttonRegister:hover {
+  background-color: #71717a;
+  color: white;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.forms p {
+  text-align: left;
+  font-weight: 600;
+}
+
+.inputEmail {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1.7px solid #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.passwordConteiner {
+  display: flex;
+}
+
+.inputPassword {
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1.7px solid #000000;
+  border-right: none;
+  width: 100%;
+}
+
+.passwordToggleBtn {
+  padding: 8px 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1.7px solid #000000;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.passwordToggleBtn:hover {
+  color: #71717a;
+}
+
+.buttonLogin2 {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 13px;
+}
+.buttonLogin2:hover {
+  background-color: #71717a;
+  color: white;
+}

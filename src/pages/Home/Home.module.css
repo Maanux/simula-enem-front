@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+.navBar {
+  border-bottom: 1px solid #a4a4a6;
+  padding: 15px;
+}
+
+.logo {
+  width: 245px;
+  height: 35px;
+}
